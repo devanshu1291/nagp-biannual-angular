@@ -1,0 +1,24 @@
+
+  
+  <div class="card h-100 product">
+    <a  class="product__link"><img
+      [src]="product.images[0]"
+      [alt]="product.title"
+      #productImageContainer
+      
+      class="card-img-top product__img"  />
+    </a>
+      <div class="card-body product__text">
+        <h4 class="card-title product__title">
+           <a [routerLink]="['/products', product.id]" >{{product.title}}</a> 
+        </h4>
+        <h5 class="product__price">{{product.price}}₹</h5>
+        <p class="card-text product__description">{{product.description}}</p>
+     <button
+          (click)="onAddProductToCart()"
+        class="btn btn-info product__add-to-cart">{{"Add to cart"|translate }}
+      </button>
+      </div>
+    </div>
+
+    
