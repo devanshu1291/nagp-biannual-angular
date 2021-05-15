@@ -7,7 +7,7 @@ import { Product } from '../models/Product';
 })
 export class CartService {
 
-  cart: Product[] = []
+  cart: Product[] = [];
   constructor() { }
 
   public getCartDetails(
@@ -60,17 +60,18 @@ export class CartService {
 
 
   public increaseQuantity(id: number): Observable<{ success: boolean; content: Product[] }> {
-    let index = this.cart.findIndex((c) => c.id == id);
-    if (index != -1) {
+    const index = this.cart.findIndex((c) => c.id === id);
+    if (index !== -1) {
       this.cart[index].quantity = this.cart[index].quantity + 1;
       return of({ success: true, content: this.cart });
     }
   }
   public decreaseQuantity(id: number): Observable<{ success: boolean; content: Product[] }> {
-    let index = this.cart.findIndex((c) => c.id == id);
-    if (index != -1) {
-      if (this.cart[index].quantity > 0)
+    const index = this.cart.findIndex((c) => c.id === id);
+    if (index !== -1) {
+      if (this.cart[index].quantity > 0) {
         this.cart[index].quantity = this.cart[index].quantity - 1;
+      }
       return of({ success: true, content: this.cart });
     }
   }

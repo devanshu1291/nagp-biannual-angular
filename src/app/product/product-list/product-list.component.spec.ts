@@ -1,5 +1,6 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { ProductListComponent } from './product-list.component';
 
@@ -9,7 +10,7 @@ describe('ProductListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule], 
+      imports: [HttpClientTestingModule,RouterTestingModule],
       declarations: [ ProductListComponent ]
     })
     .compileComponents();
@@ -23,5 +24,10 @@ describe('ProductListComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+  it('on Change Select Box', () => {
+    let e:MouseEvent
+    component.onChangeSelectBox(e)
+    expect(component.productcat).toBe(component.productnew);
   });
 });

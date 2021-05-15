@@ -19,7 +19,7 @@ import { TranslateModule } from '@ngx-translate/core';
     ProductListComponent,
     ProductsComponent,
     ProductSliderComponent,
-    
+
   ],
   imports: [
     CommonModule,
@@ -27,6 +27,6 @@ import { TranslateModule } from '@ngx-translate/core';
     FormsModule,
     TranslateModule.forChild({ extend: true }),
   ],
-  exports: [ProductsComponent, ProductDetailComponent ,ProductListComponent,ProductSliderComponent]
+  exports: [ProductsComponent, ProductDetailComponent , ProductListComponent, ProductSliderComponent]
 })
 export class ProductModule { }

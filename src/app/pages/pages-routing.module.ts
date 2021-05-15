@@ -6,7 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { ProductViewDetailComponent } from './product-view-detail/product-view-detail.component';
 import { ShoppingCartListPageComponent } from './shopping-cart-list-page/shopping-cart-list-page.component';
 
-const routes: Routes = [ 
+const routes: Routes = [
   {path: '', component: HomeComponent},
  {path: 'products', component: HomeComponent},
  {path: 'products/:id', component: ProductViewDetailComponent},

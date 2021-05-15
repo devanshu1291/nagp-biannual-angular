@@ -31,5 +31,8 @@
     "Email": "E-mail",  
     "Phone Number": "numéro de téléphone",  
     "Order": "Ordre",
-    "Delivery Details": "détails de livraison"  
+    "Delivery Details": "détails de livraison",
+    "Username is required": "Ein Benutzername wird benötigt",
+    "Password is required": "Passwort wird benötigt",
+    "Login Sucessfully": "Erfolgreich anmelden"   
 }

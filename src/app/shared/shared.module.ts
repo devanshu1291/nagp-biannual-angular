@@ -19,6 +19,6 @@ import { TranslateModule } from '@ngx-translate/core';
     RouterModule,
     TranslateModule.forChild({ extend: true }),
   ],
-  exports:[HeaderComponent,FooterComponent,PagenotfoundComponent]
+  exports: [HeaderComponent, FooterComponent, PagenotfoundComponent]
 })
 export class SharedModule { }

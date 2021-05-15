@@ -12,28 +12,27 @@ import { CartService } from 'src/app/core/services/cart.service';
 })
 export class ProductDetailComponent implements OnInit {
   @Input() public product: Product;
-  
-  constructor(private cartservice: CartService,private router:Router,private loginService:AuthenticationService,private notification:ToastrService) { }
 
-  ngOnInit() {
+  constructor(
+    private cartservice: CartService,
+    private router: Router,
+    private loginService: AuthenticationService,
+    private notification: ToastrService) { }
 
-    
+  ngOnInit(): void {
   }
 
-  onAddProductToCart(){
-    
+  onAddProductToCart(): void {
     this.cartservice.addProduct(this.product).subscribe((response) => {
     });
-    if(this.loginService.isUserLoggedIn())
-    {
+    if (this.loginService.isUserLoggedIn()) {
       this.router.navigate(['products/cart']);
-      this.notification.success('','Added To Cart',{timeOut:2000});
+      this.notification.success('', 'Added To Cart', { timeOut: 2000 });
     }
-    else
-    {
+    else {
       this.router.navigate(['user/login']);
-      this.notification.warning('','Please Do login first',{timeOut:2000});
+      this.notification.warning('', 'Please Do login first', { timeOut: 2000 });
     }
-   }
+  }
 
 }

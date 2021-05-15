@@ -31,6 +31,9 @@
     "Email": "Email",  
     "PhoneNo": "Phone No",  
     "Order": "Order",
-    "Delivery Details": "Delivery Details"   
-
+    "Delivery Details": "Delivery Details",   
+    "Username is required": "Username is required",
+    "Password is required": "Password is required",
+    "Login Sucessfully": "Login Sucessfully"
+    
 }  

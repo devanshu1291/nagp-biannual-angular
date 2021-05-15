@@ -1,4 +1,5 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { ShoppingCartItemComponent } from './shopping-cart-item.component';
 
@@ -6,8 +7,9 @@ describe('ShoppingCartItemComponent', () => {
   let component: ShoppingCartItemComponent;
   let fixture: ComponentFixture<ShoppingCartItemComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
+      imports: [TranslateModule.forRoot()],
       declarations: [ ShoppingCartItemComponent ]
     })
     .compileComponents();

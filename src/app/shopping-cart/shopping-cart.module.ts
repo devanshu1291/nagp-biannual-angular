@@ -4,12 +4,14 @@ import { ShoppingCartContainerComponent } from './shopping-cart-container/shoppi
 import { ShoppingCartItemComponent } from './shopping-cart-item/shopping-cart-item.component';
 import {CoreModule} from '../core/core.module';
 import { TranslateModule } from '@ngx-translate/core';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [ShoppingCartContainerComponent, ShoppingCartItemComponent],
   imports: [
     CommonModule,
     CoreModule,
+    RouterModule,
     TranslateModule.forChild({ extend: true }),
   ],
   exports: [ShoppingCartContainerComponent, ShoppingCartItemComponent]

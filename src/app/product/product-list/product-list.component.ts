@@ -19,13 +19,13 @@ export class ProductListComponent implements OnInit {
   searchword: '';
   brands = brands;
   brandItemsCount;
-  constructor(private productService: ProductService,
+  constructor(
+    private productService: ProductService,
     private router: Router,
     private activatedRoute: ActivatedRoute,
     private cartService: CartService) { }
 
   ngOnInit(): void {
-
     this.productService.getProducts().subscribe((response) => {
       this.products = response;
       this.productnew = this.products;
@@ -44,25 +44,25 @@ export class ProductListComponent implements OnInit {
     const value = e.target.checked;
     this.productcat = this.productnew;
     if (value) {
-      this.productcat = this.productcat.filter((p) => p.brand === name)
-      this.productsave = this.productsave.concat(this.productcat)
-      this.products = this.productsave
+      this.productcat = this.productcat.filter((p) => p.brand === name);
+      this.productsave = this.productsave.concat(this.productcat);
+      this.products = this.productsave;
     }
     else {
-      this.productcat = this.productcat.filter((p) => p.brand === name)
+      this.productcat = this.productcat.filter((p) => p.brand === name);
       this.productsave = this.productsave.filter((item) => !this.productcat.includes(item));
-      this.products = this.productsave
+      this.products = this.productsave;
     }
-    if (this.products.length == 0) {
+    if (this.products.length === 0) {
       this.products = this.productnew;
     }
   }
   searchProduct(): void {
-    if (this.searchword.trim() != '') {
+    if (this.searchword.trim() !== '') {
       this.products = this.productnew.filter(
         (p) =>
           p.title.toLocaleLowerCase().includes(this.searchword) ||
-          p.description.toLocaleLowerCase().includes(this.searchword))
+          p.description.toLocaleLowerCase().includes(this.searchword));
     }
   }
 }

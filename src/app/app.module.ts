@@ -17,7 +17,7 @@ import { CoreModule } from './core/core.module';
 @NgModule({
   declarations: [
     AppComponent,
-  
+
   ],
   imports: [
     FormsModule,
@@ -36,7 +36,7 @@ import { CoreModule } from './core/core.module';
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,
-          useFactory:HttpLoaderFactory,
+          useFactory: HttpLoaderFactory,
           deps: [HttpClient]
       }
   })

@@ -22,7 +22,7 @@ import { ShoppingCartModule } from '../shopping-cart/shopping-cart.module';
     PagesRoutingModule,
     ProductModule,
     ShoppingCartModule,
-    
+
   ],
 })
 export class PagesModule { }

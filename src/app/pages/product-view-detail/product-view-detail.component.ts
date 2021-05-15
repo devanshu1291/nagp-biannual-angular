@@ -14,11 +14,11 @@ export class ProductViewDetailComponent implements OnInit {
   id: number;
   product: Product;
 
-  constructor(private route: ActivatedRoute, private productService: ProductService,private router: Router ) {
+  constructor(private route: ActivatedRoute, private productService: ProductService, private router: Router ) {
   }
 
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.id = this.route.snapshot.params.id;
     if (this.id !== null) {
       const pid = Number(this.id);
@@ -30,7 +30,7 @@ export class ProductViewDetailComponent implements OnInit {
         }
       });
     }
-    
+
 
   }
 

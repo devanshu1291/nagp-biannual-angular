@@ -10,7 +10,7 @@ export class FooterComponent implements OnInit {
   today: number = Date.now();
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }

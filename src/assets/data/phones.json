@@ -13,7 +13,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 0,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Apple launches Mi product range in India under 'Smarter living' tagline. Apple has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Huawei Mate 20 Lite 64 GB",
   "category" : "phone",
@@ -29,7 +29,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 1,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Huawei launches Mi product range in India under 'Smarter living' tagline. Huawei has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Huawei P20 Lite 64 GB ",
   "category" : "phone",
@@ -45,7 +45,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 2,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Huawei launches Mi product range in India under 'Smarter living' tagline. Huawei has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Meizu 16TH 64 GB ",
   "category" : "phone",
@@ -61,7 +61,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 3,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Meizu launches Mi product range in India under 'Smarter living' tagline. Meizu has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Meizu X8 64 GB ",
   "category" : "phone",
@@ -77,7 +77,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 4,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Meizu launches Mi product range in India under 'Smarter living' tagline. Meizu has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy A7 2018 64 GB",
   "category" : "phone",
@@ -93,7 +93,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 5,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy J6 Plus 32 GB",
   "category" : "phone",
@@ -109,7 +109,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 6,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Vestel Venus Z20",
   "category" : "phone",
@@ -125,7 +125,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 7,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Vestel launches Mi product range in India under 'Smarter living' tagline. Vestel has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Xiaomi Mi 8 Lite 128 GB",
   "category" : "phone",
@@ -173,7 +173,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 10,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Apple launches Mi product range in India under 'Smarter living' tagline. Apple has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy S10 Plus 128 GB",
   "category" : "phone",
@@ -189,7 +189,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 11,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy S10 128 GB",
   "category" : "phone",
@@ -205,7 +205,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 12,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy S10e 128 GB",
   "category" : "phone",
@@ -221,7 +221,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 13,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy M20 32 GB",
   "category" : "phone",
@@ -237,7 +237,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 14,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy S8",
   "category" : "phone",
@@ -253,7 +253,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 15,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Huawei P Smart 2019 64 GB",
   "category" : "phone",
@@ -269,7 +269,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 16,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Huawei launches Mi product range in India under 'Smarter living' tagline. Huawei has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Xiaomi Mi 8 128 GB",
   "category" : "phone",
@@ -301,7 +301,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 18,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Apple launches Mi product range in India under 'Smarter living' tagline. Apple has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Meizu 16 64 GB",
   "category" : "phone",
@@ -317,7 +317,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 19,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "meizu launches Mi product range in India under 'Smarter living' tagline. meizu has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Vestel Venüs E3",
   "category" : "phone",
@@ -333,7 +333,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 20,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Vestel launches Mi product range in India under 'Smarter living' tagline. Vestel has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Asus Zenfone Max Pro ZB602KL 64 GB",
   "category" : "phone",
@@ -349,7 +349,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 21,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Asus Zenfone launches Mi product range in India under 'Smarter living' tagline. Asus Zenfone has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Samsung Galaxy Note 9 128 GB",
   "category" : "phone",
@@ -365,7 +365,7 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 22,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Samsung launches Mi product range in India under 'Smarter living' tagline. Samsung has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }, {
   "title" : "Huawei Mate 20 Lite Dual Sim 64 GB",
   "category" : "phone",
@@ -384,6 +384,6 @@
   "memory" : "16GB, 32GB and RAM 1 GB",
   "quantity":1,
   "id" : 23,
-  "description" : "Xiaomi launches Mi product range in India under 'Smarter living' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
+  "description" : "Huawei launches Mi product range in India under 'Smarter living' tagline. Huawei has introduced a range of products for Indian consumers, under the tagline 'Smarter living'."
 }]
 
