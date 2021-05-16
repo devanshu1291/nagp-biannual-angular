@@ -1,5 +1,7 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
+import { ToastrService } from 'ngx-toastr';
 import { CartService } from 'src/app/core/services/cart.service';
 import { Product } from '../../core/models/Product';
 
@@ -15,7 +17,10 @@ export class ShoppingCartContainerComponent implements OnInit, DoCheck {
 
   constructor(
     private router: Router,
-    private cartService: CartService) { }
+    private cartService: CartService,
+    private notification: ToastrService,
+    private readonly translate: TranslateService
+  ) { }
 
   ngOnInit(): void {
   }
@@ -34,6 +39,11 @@ export class ShoppingCartContainerComponent implements OnInit, DoCheck {
   checkout(): void {
     if (this.cart.length !== 0) {
       this.router.navigate(['user/checkout']);
+    }
+    else {
+      this.translate.get('cart cannot be empty').subscribe((value) => {
+        this.notification.success('', value, { timeOut: 2000 });
+      });
     }
   }
 

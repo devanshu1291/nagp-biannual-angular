@@ -40,8 +40,9 @@ export class LoginPageComponent implements OnInit {
         });
        
       } else {
-
-        this.notification.error('', 'Invalid Username or password', {timeOut: 2000});
+        this.translate.get('Invalid Username or password').subscribe((value) => {
+          this.notification.error('',value, {timeOut: 2000});
+        });
       }
       this.invalidLogin = true;
     }

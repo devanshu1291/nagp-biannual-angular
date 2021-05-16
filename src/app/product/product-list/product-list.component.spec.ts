@@ -25,9 +25,5 @@ describe('ProductListComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it('on Change Select Box', () => {
-    let e:MouseEvent
-    component.onChangeSelectBox(e)
-    expect(component.productcat).toBe(component.productnew);
-  });
+ 
 });

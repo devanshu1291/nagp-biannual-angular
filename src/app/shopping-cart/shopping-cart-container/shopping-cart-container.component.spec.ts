@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { TranslateModule } from '@ngx-translate/core';
+import { ToastrModule } from 'ngx-toastr';
 import { ShoppingCartContainerComponent } from './shopping-cart-container.component';
 
 describe('ShoppingCartContainerComponent', () => {
@@ -9,7 +10,7 @@ describe('ShoppingCartContainerComponent', () => {
 
   beforeEach(async() => {
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule,TranslateModule.forRoot()],
+      imports: [RouterTestingModule,TranslateModule.forRoot(),ToastrModule.forRoot()],
       declarations: [ ShoppingCartContainerComponent ]
     })
     .compileComponents();

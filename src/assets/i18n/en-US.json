@@ -15,7 +15,7 @@
     "Shopping cart": "Shopping cart", 
     "There is no item in cart": "There is no item in cart",
     "Total price": "Total price",  
-    "checkout": "checkout", 
+    "checkout": "Checkout", 
     "Delete": "Delete", 
     "Add to cart": "Add to cart", 
     "Brands": "Brands", 
@@ -34,6 +34,13 @@
     "Delivery Details": "Delivery Details",   
     "Username is required": "Username is required",
     "Password is required": "Password is required",
+    "Login Sucessfully": "Login Sucessfully",
+    "cart cannot be empty": "Cart cannot be empty",
+    "Invalid Username or password": "Invalid Username or password",
+    "Your Order is Placed Successfully": "Your Order is Placed Successfully",
+    "Your Order is not placed": "Your Order is not placed",
+    "Logged out Sucessfully": "Logged out Sucessfully",
+    "Please Do login first": "Please Do login first",
     "Login Sucessfully": "Login Sucessfully"
     
 }  

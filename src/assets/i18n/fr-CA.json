@@ -34,5 +34,11 @@
     "Delivery Details": "détails de livraison",
     "Username is required": "Ein Benutzername wird benötigt",
     "Password is required": "Passwort wird benötigt",
-    "Login Sucessfully": "Erfolgreich anmelden"   
+    "Login Sucessfully": "Erfolgreich anmelden",
+    "cart cannot be empty": "Le panier ne peut pas être vide",
+    "Invalid Username or password": "Nom d'utilisateur ou mot de passe invalide",
+    "Your Order is Placed Successfully": "Votre commande est passée avec succès",
+    "Your Order is not placed": "Votre commande n'est pas passée",
+    "Logged out Sucessfully": "Déconnecté avec succès",
+    "Please Do login first": "Veuillez d'abord vous connecter"
 }

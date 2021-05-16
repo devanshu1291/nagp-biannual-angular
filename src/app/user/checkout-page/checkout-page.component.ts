@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 import { ToastrService } from 'ngx-toastr';
 import { CartService } from 'src/app/core/services/cart.service';
 
@@ -18,7 +19,9 @@ export class CheckoutPageComponent implements OnInit {
     private formBuilder: FormBuilder,
     private cartservice: CartService,
     private router: Router,
-    private notification: ToastrService) { }
+    private notification: ToastrService,
+    private readonly translate: TranslateService
+    ) { }
 
   ngOnInit(): void {
     this.registerForm = this.formBuilder.group({
@@ -60,16 +63,21 @@ export class CheckoutPageComponent implements OnInit {
         this.cartservice.removeAllProducts().subscribe((response) => {
           if (response.success) {
             this.router.navigate(['/products']);
-            this.notification.success('', 'Your Order is Placed Successfully', { timeOut: 2000 });
+            this.translate.get('Your Order is Placed Successfully').subscribe((value) => {
+              this.notification.success('',value, {timeOut: 2000});
+            });
           } else {
             localStorage.clear();
             this.router.navigate(['user/login']);
-
+            this.translate.get('Your Order is not placed').subscribe((value) => {
+              this.notification.error('',value, {timeOut: 2000});
+            });
           }
         });
       }
       else {
         this.registerForm.markAllAsTouched();
+        
       }
     }
   }

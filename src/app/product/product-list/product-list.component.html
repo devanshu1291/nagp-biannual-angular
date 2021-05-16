@@ -1,8 +1,8 @@
-<div class="form-inline">
-  <input class="form-control mr-1" style="margin-left:400px;margin-bottom:30px;background-color: rgb(0, 255, 42);"
-    type="search" [(ngModel)]="searchword" (keyup.enter)="searchProduct()" placeholder="Search Mobile here" />
-  <i class="fa fa-search" style="margin-bottom: 20px;"></i>
-</div>
+
+<form class="example"  style="margin-bottom:30px;max-width:300px;margin-left:400px;">
+  <input type="text" placeholder="Search Mobile here" [(ngModel)]="searchword" name="search2" (keyup.enter)="searchProduct()"> 
+  <button type="submit" (click)="searchProduct()"><i class="fa fa-search"></i></button>
+</form>
 
 <div class="row ">
   <div class="col-lg-3 ">
