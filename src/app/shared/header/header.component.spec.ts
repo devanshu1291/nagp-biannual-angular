@@ -11,10 +11,10 @@ describe('HeaderComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule,TranslateModule.forRoot(),ToastrModule.forRoot()],
-      declarations: [ HeaderComponent ]
+      imports: [RouterTestingModule, TranslateModule.forRoot(), ToastrModule.forRoot()],
+      declarations: [HeaderComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

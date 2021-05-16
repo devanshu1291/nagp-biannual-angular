@@ -11,12 +11,12 @@ describe('ProductService', () => {
   beforeEach(() => {
     httpClientSpy = jasmine.createSpyObj('HttpClient', ['get', 'post']);
     productService = new ProductService(httpClientSpy as any);
-    
+
   });
   it('should be created.', () => {
     expect(productService).toBeTruthy();
   });
-  
+
   it('service should retun all products.', () => {
     httpClientSpy.get.and.callFake(() => {
       return of(testData);
@@ -76,9 +76,9 @@ describe('ProductService', () => {
       description: 'Xiaomi launches Mi product range in India under \'Smarter living\' tagline. Xiaomi has introduced a range of products for Indian consumers, under the tagline \'Smarter living\'.'
     }
   ];
-  });
-  
-  
+});
+
+
 
 
 

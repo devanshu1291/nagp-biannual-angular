@@ -13,14 +13,14 @@ describe('LoginPageComponent', () => {
   let authenticationService: AuthenticationService;
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule,ToastrModule.forRoot(),TranslateModule.forRoot(),FormsModule],
-      declarations: [ LoginPageComponent ]
+      imports: [RouterTestingModule, ToastrModule.forRoot(), TranslateModule.forRoot(), FormsModule],
+      declarations: [LoginPageComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
-    authenticationService= new AuthenticationService();
+    authenticationService = new AuthenticationService();
     fixture = TestBed.createComponent(LoginPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -35,7 +35,7 @@ describe('LoginPageComponent', () => {
   });
   it('Authenticate login', () => {
     component.login();
-    authenticationService.authenticate('test@123','password')
+    authenticationService.authenticate('test@123', 'password');
     expect(component.invalidLogin).toBe(true);
   });
 });

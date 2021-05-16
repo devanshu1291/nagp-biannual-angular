@@ -33,7 +33,7 @@ export class HeaderComponent implements OnInit, DoCheck {
   logout(): void {
     this.loginService.logOut();
     this.translate.get('Logged out Sucessfully').subscribe((value) => {
-      this.notification.success('',value, {timeOut: 2000});
+      this.notification.success('', value, { timeOut: 2000 });
     });
     this.router.navigate(['products']);
     this.loggedin = false;
@@ -47,7 +47,7 @@ export class HeaderComponent implements OnInit, DoCheck {
     }
     else {
       this.translate.get('Please Do login first').subscribe((value) => {
-        this.notification.warning('',value, {timeOut: 2000});
+        this.notification.warning('', value, { timeOut: 2000 });
       });
       this.router.navigate(['user/login']);
     }

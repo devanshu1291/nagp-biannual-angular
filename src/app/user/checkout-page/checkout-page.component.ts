@@ -21,7 +21,7 @@ export class CheckoutPageComponent implements OnInit {
     private router: Router,
     private notification: ToastrService,
     private readonly translate: TranslateService
-    ) { }
+  ) { }
 
   ngOnInit(): void {
     this.registerForm = this.formBuilder.group({
@@ -64,20 +64,20 @@ export class CheckoutPageComponent implements OnInit {
           if (response.success) {
             this.router.navigate(['/products']);
             this.translate.get('Your Order is Placed Successfully').subscribe((value) => {
-              this.notification.success('',value, {timeOut: 2000});
+              this.notification.success('', value, { timeOut: 2000 });
             });
           } else {
             localStorage.clear();
             this.router.navigate(['user/login']);
             this.translate.get('Your Order is not placed').subscribe((value) => {
-              this.notification.error('',value, {timeOut: 2000});
+              this.notification.error('', value, { timeOut: 2000 });
             });
           }
         });
       }
       else {
         this.registerForm.markAllAsTouched();
-        
+
       }
     }
   }

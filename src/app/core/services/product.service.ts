@@ -13,13 +13,15 @@ export class ProductService {
   private PRODUCT_SERVICE_BASE_URL = '/assets/data/phones.json';
 
   constructor(private readonly http: HttpClient) { }
+  // get all the products
 
   public getProducts(): Observable<Product[]> {
-     const url = `${this.PRODUCT_SERVICE_BASE_URL}`;
-     return this.http.get<Product[]>(url);
-   }
+    const url = `${this.PRODUCT_SERVICE_BASE_URL}`;
+    return this.http.get<Product[]>(url);
+  }
 
-   public getProduct(
+  // get the products with selected id
+  public getProduct(
     id: number
   ): Observable<{ success: boolean; content: Product }> {
     return this.http.get<Product[]>(this.PRODUCT_SERVICE_BASE_URL).pipe(

@@ -1,6 +1,17 @@
 # SHOPPINGCARTAPP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+Git hub link: - https://github.com/devanshu1291/NAGP_ShoppingCart
+
+Deployed application link: - keen-kare-33b645.netlify.app
+
+Credentials to login: -
+Username: - test@123
+Password: - password
+
+Test cases for files: -
+1 product.service.spec.ts  ( Service file)
+2 authentication.service.spec.ts (Service file)
+3 login-page.component.spec.ts (Component file )
 
 ## Development server
 

@@ -26,7 +26,6 @@ export class ShoppingCartItemComponent implements OnInit {
   onIncrementCartItem(): void {
 
     this.cartService.increaseQuantity(this.product.id).subscribe((response) => {
-
     });
   }
   onDecrementCartItem(): void {

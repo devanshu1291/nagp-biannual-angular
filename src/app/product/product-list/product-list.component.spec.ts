@@ -10,10 +10,10 @@ describe('ProductListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule,RouterTestingModule],
-      declarations: [ ProductListComponent ]
+      imports: [HttpClientTestingModule, RouterTestingModule],
+      declarations: [ProductListComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
@@ -25,5 +25,5 @@ describe('ProductListComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
- 
+
 });

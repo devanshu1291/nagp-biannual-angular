@@ -8,12 +8,12 @@ describe('ShoppingCartContainerComponent', () => {
   let component: ShoppingCartContainerComponent;
   let fixture: ComponentFixture<ShoppingCartContainerComponent>;
 
-  beforeEach(async() => {
+  beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule,TranslateModule.forRoot(),ToastrModule.forRoot()],
-      declarations: [ ShoppingCartContainerComponent ]
+      imports: [RouterTestingModule, TranslateModule.forRoot(), ToastrModule.forRoot()],
+      declarations: [ShoppingCartContainerComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
