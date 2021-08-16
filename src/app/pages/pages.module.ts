@@ -8,6 +8,7 @@ import { ProductModule } from '../product/product.module';
 import { RouterModule } from '@angular/router';
 import { ProductViewDetailComponent } from './product-view-detail/product-view-detail.component';
 import { ShoppingCartModule } from '../shopping-cart/shopping-cart.module';
+import { UserModule } from '../user/user.module';
 
 
 @NgModule({
@@ -22,7 +23,7 @@ import { ShoppingCartModule } from '../shopping-cart/shopping-cart.module';
     PagesRoutingModule,
     ProductModule,
     ShoppingCartModule,
-
+    UserModule
   ],
 })
 export class PagesModule { }

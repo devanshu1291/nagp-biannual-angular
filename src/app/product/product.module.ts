@@ -8,8 +8,9 @@ import { PagesModule } from '../pages/pages.module';
 import { ProductSliderComponent } from './product-slider/product-slider.component';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
+import { PaginationModule } from '../pagination/pagination.module';
 
 
 
@@ -20,12 +21,15 @@ import { TranslateModule } from '@ngx-translate/core';
     ProductsComponent,
     ProductSliderComponent,
 
+
   ],
   imports: [
+    FormsModule,
+    ReactiveFormsModule,
     CommonModule,
     RouterModule,
-    FormsModule,
     TranslateModule.forChild({ extend: true }),
+    PaginationModule
   ],
   exports: [ProductsComponent, ProductDetailComponent , ProductListComponent, ProductSliderComponent]
 })

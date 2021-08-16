@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
-    <a class="navbar-brand" routerLink="/products" >{{"Mobile Shopping App" | translate}}</a>
+    <a class="navbar-brand" routerLink="/products" >{{"Patient registration application"}}</a>
     <div>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -10,7 +10,7 @@
       </select> 
             <li><a *ngIf="!loggedin" (click)="login()" class="nav-link">{{"Login"| translate }}</a></li>
             <li><a *ngIf="loggedin"  (click)="logout();" class="nav-link">{{"Logout"| translate }}</a></li>
-            <li><a  (click)="cart();" class="nav-link">{{"Cart"| translate}}</a></li>
+           
       </ul>
     </div>
   </div>

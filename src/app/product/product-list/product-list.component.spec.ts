@@ -1,29 +1,39 @@
-import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
-
-import { ProductListComponent } from './product-list.component';
-
-describe('ProductListComponent', () => {
-  let component: ProductListComponent;
-  let fixture: ComponentFixture<ProductListComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule, RouterTestingModule],
-      declarations: [ProductListComponent]
-    })
-      .compileComponents();
-  });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(ProductListComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-
-});
+apiVersion: apps / v1
+kind: Deployment
+metadata:
+name: dotnet - app - deployment - master
+namespace: kubernetes - cluster - devanshugoyal
+labels:
+app: dotnet - app - master
+spec:
+replicas: 4
+selector:
+matchLabels:
+app: dotnet - app - master
+template:
+metadata:
+labels:
+app: dotnet - app - master
+spec:
+containers:
+- name: dotnet - app - master
+image: devanshu123 / devanshugoyal - master: latest
+ports:
+-  name: http
+containerPort: 80
+protocol: TCP
+---
+  apiVersion: v1
+kind: Service
+metadata:
+name: dotnet - app - develop
+namespace: kubernetes - cluster - devanshugoyal
+spec:
+type: NodePort
+selector:
+app: dotnet - app - develop
+ports:
+- protocol: TCP
+nodePort: 30157
+port: 80
+targetPort: 80
